@@ -21,5 +21,45 @@ namespace SortString.Test
 
             Assert.Equal(TestCaseData.OutputSecondScenario(), sorted);
         }
+
+        [Fact]
+        public void ThirdScenario_Sort_String_ReturnStrigSorted()
+        {
+            var sort = new Sort();
+
+            var sorted = sort.SortingOperations(TestCaseData.InputThirdScenario());
+
+            Assert.Equal(TestCaseData.OutputThirdScenario(), sorted);
+        }
+
+        [Fact]
+        public void FourthScenario_Sort_String_ReturnStrigSorted()
+        {
+            var sort = new Sort();
+
+            var sorted = sort.SortingOperations(TestCaseData.InputFourthScenario());
+
+            Assert.Equal(TestCaseData.OutputFourthScenario(), sorted);
+        }
+
+        [Fact]
+        public void FifthScenario_Sort_String_ReturnStrigSorted()
+        {
+            var sort = new Sort();
+
+            var sorted = sort.SortingOperations(TestCaseData.InputFifthScenario());
+
+            Assert.Equal(TestCaseData.OutputFifthScenario(), sorted);
+        }
+
+        [Fact]
+        public void SixthScenario_Sort_String_ReturnStrigSorted()
+        {
+            var sort = new Sort();
+
+            var sorted = sort.SortingOperations(TestCaseData.InputSixthScenario());
+
+            Assert.Equal(TestCaseData.OutputSixthScenario(), sorted);
+        }
     }
 }

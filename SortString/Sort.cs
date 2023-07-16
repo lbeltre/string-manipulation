@@ -31,7 +31,7 @@ namespace SortString
             return result;
         }
 
-        Dictionary<char, int> GetFrecuencyCharacter(string input)
+        static Dictionary<char, int> GetFrecuencyCharacter(string input)
         {
             var result = new Dictionary<char, int>();
 
