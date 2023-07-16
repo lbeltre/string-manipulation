@@ -11,5 +11,15 @@ namespace SortString.Test
 
             Assert.Equal(TestCaseData.OutputFirstScenario(), sorted);
         }
+
+        [Fact]
+        public void SecondScenario_Sort_String_ReturnStrigSorted()
+        {
+            var sort = new Sort();
+
+            var sorted = sort.SortingOperations(TestCaseData.InputSecondScenario());
+
+            Assert.Equal(TestCaseData.OutputSecondScenario(), sorted);
+        }
     }
 }
